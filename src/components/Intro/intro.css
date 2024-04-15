@@ -1,0 +1,93 @@
+
+#intro{
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit:cover;
+    max-width: 500px;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    font-size: 2.7rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: yellow;
+
+}
+
+.intro-role{
+    font-size: 2.2rem;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.btn {
+    background: white;
+    color: black; 
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    gap: 0.2rem;
+    overflow: hidden;
+    transition:  0.5s, color 0.5s;
+}
+
+.btn:hover {
+    background-color:purple;
+    color: white;
+    
+}
+
+.resume-logo {
+    max-width: 20px;
+    margin-top: -3px;
+}
+
+.btn span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:800px) {
+    #intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-role{
+        font-size: 5vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

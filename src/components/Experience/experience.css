@@ -1,0 +1,150 @@
+#experience {
+    padding: 1rem;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.experience-main {
+    display: flex;
+}
+
+.section1 {
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+}
+
+.logo1 {
+    border-radius: 50px;
+    width: max-content;
+    padding: 5px;
+    box-shadow: 4px 3px 20px -2px grey;
+    transition: transform 0.3s ease-in-out;
+    background-color: whitesmoke;
+}
+
+.logo2 {
+    border-radius: 50px;
+    width: max-content;
+    padding: 5px;
+    box-shadow: 4px 3px 20px -2px grey;
+    transition: transform 0.3s ease-in-out;
+    background-color: whitesmoke;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo1 img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.logo1:hover{
+    box-shadow: 0 0 10px solid black;
+    transform: scale(1.1);
+}
+
+
+.logo2 img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.logo2:hover{
+    box-shadow: 0 0 10px solid black;
+    transform: scale(1.1);
+}
+
+.timeline {
+    gap: 6rem;
+    margin-top: 3rem;
+
+}
+
+.timeline .MuiTimelineItem-root {
+    margin-left: 0;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+    flex: none;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 120vh;
+    height: 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px;
+}
+
+.content{
+    display: inline;
+    margin: 4px;
+}
+
+.title-role{
+    margin-left: 1px;
+    font-weight: bold;
+    color: black;
+    
+}    
+
+.date{
+    color: black;
+    opacity: 50%;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 30%;
+}
+
+.desc{
+    margin: 3px;
+    color: black;
+    font-size: 12px;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 120vh;
+    height: 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px;
+}
+
+.role{
+    color: black;
+    opacity: 50%;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 40%;
+}

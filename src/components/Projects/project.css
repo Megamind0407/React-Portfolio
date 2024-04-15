@@ -1,0 +1,42 @@
+.projects {
+    padding: 3rem;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn1 {
+    --hover-shadows: 12px 12px 28px #121212, -12px -12px 28px #303030;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: 500ms;
+}
+
+.btn1:hover{
+    box-shadow: var(--hover-shadows);
+    transition: 500ms;
+}
+
+.btn1:active {
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+}
