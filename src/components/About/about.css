@@ -6,33 +6,36 @@
     font-weight: 600;
     font-size: 2rem;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     text-align: center;
 }
 
 .about-content {
     display: flex;
+    margin-bottom: 7rem;
 }
 
-
 .about-desc {
-    font-size: medium;
+    font-size: large;
     font-weight: 400;
     letter-spacing: 1px;
     padding-left: 1rem;
 }
 
 .about-img {
-    margin-left: 20%;
+    position: absolute;
+    padding-right: 2rem;
+    right: 0;
 }
 
 .about-img img {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .profile {
     display: flex;
     padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 .profile-tag {
@@ -111,4 +114,37 @@
 
 .Codechef:hover img {
     filter: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    #about{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .about-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .about-img{
+        display: none;
+    }
+
+
+
 }

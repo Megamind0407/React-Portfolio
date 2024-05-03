@@ -16,19 +16,13 @@ const experience = () => {
             <div className='title'>Experience</div>
             <div className='experience-main'>
                 <div className='section1'>
-                <div className='logo1'>
-                    <a href='https://www.elitesoftwares.co.in/' target='_blank' rel="noopener noreferrer">
-                    <img src={Logo1} alt=''></img>
-                    </a>
-                </div>
-                    <div className='logo2'>
-                        <a href='https://www.geeksforgeeks.org/' target="_blank" rel="noopener noreferrer">
-                        <img src={Logo2} alt=''></img>
+                    <div className='logo1'>
+                        <a href='https://www.elitesoftwares.co.in/' target='_blank' rel="noopener noreferrer">
+                            <img src={Logo1} alt=''></img>
                         </a>
                     </div>
-                </div>
-                <div classname="section2">
-                <Timeline className='timeline'>
+                    <div className='timelines'>
+                    <Timeline className='timeline'>
                         <TimelineItem>
                             <TimelineSeparator>
                                 <TimelineDot />
@@ -36,27 +30,36 @@ const experience = () => {
                             </TimelineSeparator>
                             <TimelineContent></TimelineContent>
                         </TimelineItem>
-                        <TimelineItem>
-                            <TimelineSeparator>
-                                <TimelineDot />
-                                <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent></TimelineContent>
-                        </TimelineItem>
-                </Timeline>
-
-                </div>
-                <div className='section3'>
+                    </Timeline>
+                    </div>
                     <div className='card-1'>
                         <div className='content'>
-                        <span className='title-role'>Python-Django WebDev Intern</span>
-                        <span className='date'>Oct 2023-Jan 2024</span>
+                            <span className='title-role'>Python-Django WebDev Intern</span>
+                            <span className='date'>Oct 2023-Jan 2024</span>
                         </div>
                         <div className='desc'>
-                        <span>During my Python Django web development internship, I learned a wide range of skills and gained valuable experience in building web applications.
-                        Some key learnings like Django Framework, Restful Api's, Authentication, Database Management 
-                        </span>
+                            <span>During my Python Django web development internship, I learned a wide range of skills and gained valuable experience in building web applications.
+                                Some key learnings like Django Framework, Restful Api's, Authentication, Database Management
+                            </span>
                         </div>
+                    </div>
+                </div>
+                <div className='section2'>
+                    <div className='logo2'>
+                        <a href='https://www.geeksforgeeks.org/' target="_blank" rel="noopener noreferrer">
+                            <img src={Logo2} alt=''></img>
+                        </a>
+                    </div>
+                    <div className='timelines'>
+                    <Timeline className='timeline'>
+                        <TimelineItem>
+                            <TimelineSeparator>
+                                <TimelineDot />
+                                <TimelineConnector />
+                            </TimelineSeparator>
+                            <TimelineContent></TimelineContent>
+                        </TimelineItem>
+                    </Timeline>
                     </div>
                     <div className='card-2'>
                         <div className='content'>
@@ -64,11 +67,11 @@ const experience = () => {
                             <span className='role'>Remote(Freelance)</span>
                         </div>
                         <div className='desc'>
-                        <span>
-                        My area of expertise as a freelance technical content writer for GeeksforGeeks is producing tutorials and articles about PostgreSQL, MySQL, and other database-related subjects. 
-                        I have 1000+ views and 500+ Likes on my articles .
-                        My intention is to assist people comprehend these difficult concepts by offering simple and helpful articles. 
-                        </span>
+                            <span>
+                                My area of expertise as a freelance technical content writer for GeeksforGeeks is producing tutorials and articles about PostgreSQL, MySQL, and other database-related subjects.
+                                I have 1000+ views and 500+ Likes on my articles .
+                                My intention is to assist people comprehend these difficult concepts by offering simple and helpful articles.
+                            </span>
                         </div>
                     </div>
                 </div>

@@ -2,23 +2,20 @@
 #intro{
     display: flex;
     margin: auto;
-    overflow: hidden;
-    position: relative;
 }
 
 .bg{
     position: absolute;
-    top: 0;
     right: 0;
     object-fit:cover;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .introContent{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     padding: 1rem;
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -38,7 +35,7 @@
 }
 
 .intro-role{
-    font-size: 2.2rem;
+    font-size: 2.7rem;
 }
 
 .introPara{
@@ -79,10 +76,33 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:750px) {
     #intro{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bg {
+        height: 50vh;
+        width: 70vw;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .introContent{
+        height: 60vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .introName{
+        text-align: center;
+    }
+    .introText{
+        text-align: center;
     }
     .intro-role{
         font-size: 5vw;

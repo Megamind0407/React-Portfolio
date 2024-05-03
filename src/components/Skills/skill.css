@@ -1,12 +1,12 @@
 .skills {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .skill-tag {
     font-weight: 600;
     font-size: 2rem;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 6rem;
 }
 
 .card {
@@ -28,7 +29,7 @@
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     overflow: hidden;
     height: 50px;
-    width: 900px;
+    width: 1000px;
     padding-left: 3px;
     padding-right: 3px; 
 }
@@ -109,4 +110,16 @@
 
 .card .icons:hover {
     transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 750px){
+    .skills{
+        margin-bottom: 1.5rem;
+    }
+    .card{
+        width: 600px;
+    }
+
 }
