@@ -1,12 +1,12 @@
 .skills {
-    padding: 4rem;
+    padding: 6rem;
 }
 
 .skill-tag {
     font-weight: 600;
     font-size: 2rem;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
