@@ -62,6 +62,8 @@
 
 .card:hover {
     box-shadow: 0 14px 28px rgba(67, 66, 66, 0.189), 0 10px 10px rgba(43, 41, 41, 0.22);
+    background: white;
+    background-size: cover;
 }
 
 .card:hover span {
@@ -115,6 +117,12 @@
 
 
 @media screen and (max-width: 750px){
+    .skill-tag{
+        margin-bottom: 6rem;
+    }
+    .skill-cards{
+        margin-bottom: 7rem;
+    }
     .skills{
         margin-bottom: 1.5rem;
     }

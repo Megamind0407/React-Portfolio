@@ -125,6 +125,9 @@
         justify-content: center;
         gap: 2rem;
     }
+    .about-title{
+        margin-top: 3rem;
+    }
 
     .about-content{
         display: flex;
