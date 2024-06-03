@@ -105,10 +105,14 @@
 }
 
 .title-role {
-    margin-left: 1px;
     font-weight: bold;
     color: black;
 
+}
+.title-role2{
+    margin-right: 2rem;
+    font-weight: bold;
+    color: black;
 }
 
 .date {
@@ -120,6 +124,7 @@
 }
 
 .desc {
+    padding: 0.4rem;
     margin: 3px;
     color: black;
     font-size: 12px;
@@ -140,7 +145,7 @@
     opacity: 50%;
     font-size: small;
     font-weight: 500;
-    margin-left: 50%;
+    margin-left: 52%;
 }
 
 @media (max-width: 750px) {

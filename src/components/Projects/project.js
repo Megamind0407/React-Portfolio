@@ -1,6 +1,8 @@
 import React from 'react'
 import './project.css'
 import Img from "../../assets/fitlifehub.jpeg"
+import { ExternalLink} from 'lucide-react';
+import { Code } from 'lucide-react';
 const project = () => {
     return (
         <div className='projects'>
@@ -21,8 +23,23 @@ const project = () => {
                     <div className='bt2'><span className='text'>Tailwind</span></div>
                     <div className='bt3'><span className='text'>NodeJs</span></div>
                 </div>
-                <div className='demo'>
-                
+                <div className='buttons'>
+                    <a href='https://fitlifehub12.netlify.app/' target='_blank' rel="noreferrer">
+                        <button className='demo'>
+                            <div className='live'>
+                                <ExternalLink />
+                            </div>
+                            <div className='btn-text'>Live</div>
+                        </button>
+                    </a>
+                        <a href='https://github.com/Megamind0407/React-Portfolio.git' target='_blank' rel="noreferrer">
+                    <button className='code'>
+                        <div className='icon'>
+                            <Code />
+                        </div>
+                        <div className='txt'>Code</div>
+                    </button>
+                    </a>
                 </div>
             </div>
         </div>
