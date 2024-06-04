@@ -27,9 +27,11 @@ const NavBar = () => {
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-90} duration={900} className="componentsList">Experience</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={900} className="componentsList">Projects</Link>
             </div>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={900} >
             <button className="nav-button">
                 <img src={contactImg} alt="" className='contact-img'></img><span>Contact Me</span>
             </button>
+            </Link>
             <div className="menu-grid" onClick={toggleMenu}>
                 <IoMenu />
             </div>
@@ -39,8 +41,8 @@ const NavBar = () => {
                 <Link to="about" onClick={closeMenu} offset={-60}>About</Link>
                 <Link to="skills" onClick={closeMenu} offset={-60}>Skills</Link>
                 <Link to="experience" onClick={closeMenu} offset={-60}>Experience</Link>
-                <Link to="projects" onClick={closeMenu} offset={-60}>Projects</Link>
-                <Link to="./" onClick={closeMenu}>Contact</Link>
+                <Link to="projects" onClick={closeMenu} offset={-90}>Projects</Link>
+                <Link to="contact" onClick={closeMenu} offset={-60}>Contact</Link>
             </div>
             )}
         </nav>

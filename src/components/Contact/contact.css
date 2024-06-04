@@ -1,0 +1,77 @@
+#contact{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.contactform{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.socials{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 9px;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+}
+
+.social:hover{
+    background-color: #f2f2f2;
+    
+}
+.socials img{
+    transition: 0.3s;
+    height: 25px;
+}
+.github:hover{
+    border: 8px solid white;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 750px){
+    #contact{
+        padding: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .contactform{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

@@ -248,6 +248,10 @@
 
 
 @media (max-width: 750px){
+    .projects{
+        padding-bottom: 5rem;
+        
+    }
     .project-card{
         margin-left: 15%;
     }
