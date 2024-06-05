@@ -1,36 +1,38 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css"
 import github from '../../assets/socials/github-mark-white.png'
 import linkedin from "../../assets/socials/linkedin.png"
 import instagram from '../../assets/socials/instagram.png'
 import discord from "../../assets/socials/discord.png"
-// import emailjs from '@emailjs/browser';
 
+const Contact = () => {
+    const form = useRef();
 
-const contact = () => {
-    // const form = useRef;
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    //     emailjs
-    //         .sendForm('service_gg62jxm', 'template_26t4bsg', form.current, {
-    //             publicKey: 'qQ6lqlczmP-G4NxcwvFFS',
-    //         })
-    //         .then(
-    //             () => {
-    //                 console.log('SUCCESS!');
-    //             },
-    //             (error) => {
-    //                 console.log('FAILED...', error.text);
-    //             },
-    //         );
-    // };
+        emailjs
+            .sendForm('service_gg62jxm', 'template_26t4bsg', form.current, {
+                publicKey: 'jSlyxhWUsIxjyCBqB',
+            })
+            .then(
+                (result) => {
+                    console.log(result.txt);
+                    e.target.reset();
+                    alert('Email Sent !!!');
+                },
+                (error) => {
+                    console.log(error.text);
+                },
+            );
+    };
     return (
         <section id='contact'>
             <div className='title'>Contact</div>
-            <form className='contactform'>
-                <input type='text' className='name' placeholder='Your Name' name='your_name' />
-                <input type='email' className='email' placeholder='Your Email' name='your_email' />
+            <form className='contactform' ref={form} onSubmit={sendEmail}>
+                <input type='text' className='name' placeholder='Your Name' name='from_name' />
+                <input type='email' className='email' placeholder='Your Email' name='from_email' />
                 <textarea className='msg' name='message' rows='5' placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
             </form>
@@ -52,5 +54,5 @@ const contact = () => {
 
     )
 }
+export default Contact
 
-export default contact
