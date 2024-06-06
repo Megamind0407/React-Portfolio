@@ -38,7 +38,7 @@ const experience = () => {
                             <span className='date'>Oct 2023-Jan 2024</span>
                         </div>
                         <div className='desc'>
-                            <span>During my Python Django web development internship, I learned a wide range of skills and gained valuable experience in building web applications.
+                            <span>During my Python Django Web development internship, I learned a wide range of skills and gained valuable experience in building web applications.
                                 Some key learnings like Django Framework, Restful Api's, Authentication, Database Management
                             </span>
                         </div>

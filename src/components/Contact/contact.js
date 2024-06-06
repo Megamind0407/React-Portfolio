@@ -11,7 +11,15 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        const formElements = e.target.elements;
+        const name = formElements.name.value.trim();
+        const email = formElements.email.value.trim();
+        const message = formElements.message.value.trim();
 
+        if (!name || !email || !message) {
+            alert('Please fill in all the details');
+            return;
+        }
         emailjs
             .sendForm('service_gg62jxm', 'template_26t4bsg', form.current, {
                 publicKey: 'jSlyxhWUsIxjyCBqB',
@@ -31,8 +39,8 @@ const Contact = () => {
         <section id='contact'>
             <div className='title'>Contact</div>
             <form className='contactform' ref={form} onSubmit={sendEmail}>
-                <input type='text' className='name' placeholder='Your Name' name='from_name' />
-                <input type='email' className='email' placeholder='Your Email' name='from_email' />
+                <input type='text' className='name' placeholder='Your Name' name='name' />
+                <input type='email' className='email' placeholder='Your Email' name='email' />
                 <textarea className='msg' name='message' rows='5' placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
             </form>
