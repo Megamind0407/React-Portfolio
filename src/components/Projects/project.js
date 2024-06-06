@@ -22,6 +22,7 @@ const project = () => {
                     <div className='bt1'><span className='text'>ReactJs</span></div>
                     <div className='bt2'><span className='text'>Tailwind</span></div>
                     <div className='bt3'><span className='text'>NodeJs</span></div>
+                    <div className='bt4'><span className='text'>Material UI</span></div>
                 </div>
                 <div className='buttons'>
                     <a href='https://fitlifehub12.netlify.app/' target='_blank' rel="noreferrer">
