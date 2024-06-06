@@ -10,7 +10,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
 
-const experience = () => {
+const Experience = () => {
     return (
         <section id='experience'>
             <div className='title'>Experience</div>
@@ -80,4 +80,4 @@ const experience = () => {
     )
 }
 
-export default experience
+export default Experience

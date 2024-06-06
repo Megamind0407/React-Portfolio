@@ -4,7 +4,7 @@ import aboutImg from '../../assets/aboutcover.webp'
 import leetcode from '../../assets/leetcode.svg'
 import GFGIcon from '../../assets/GeeksforGeeks.svg'
 import Codechef from '../../assets/codechef-svgrepo-com.svg'
-const about = () => {
+const About = () => {
     
 
     return (
@@ -42,4 +42,4 @@ const about = () => {
     )
 }
 
-export default about;
+export default About;

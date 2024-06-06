@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import WorkIcon from '@mui/icons-material/Work';
 
 
-const intro = () => {
+const Intro = () => {
 
     return (
         <section id="intro">
@@ -35,4 +35,4 @@ const intro = () => {
     )
 }
 
-export default intro
+export default Intro
