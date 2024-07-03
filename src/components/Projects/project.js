@@ -33,7 +33,7 @@ const project = () => {
                             <div className='btn-text'>Live</div>
                         </button>
                     </a>
-                        <a href='https://github.com/Megamind0407/React-Portfolio.git' target='_blank' rel="noreferrer">
+                        <a href='https://github.com/Megamind0407/fitlifehub.git' target='_blank' rel="noreferrer">
                     <button className='code'>
                         <div className='icon'>
                             <Code />
