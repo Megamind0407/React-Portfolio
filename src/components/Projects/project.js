@@ -3,7 +3,8 @@ import './project.css'
 import Img from "../../assets/fitlifehub.jpeg"
 import { ExternalLink} from 'lucide-react';
 import { Code } from 'lucide-react';
-const project = () => {
+const Project = () => {
+
     return (
         <div className='projects'>
             <div className='title'>Projects</div>
@@ -46,4 +47,4 @@ const project = () => {
         </div>
     )
 }
-export default project;
+export default Project;

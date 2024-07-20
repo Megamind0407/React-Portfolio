@@ -194,7 +194,7 @@
 
 .code {
     margin-top: 1.2rem;
-    margin-left: 60%;
+    margin-left: 16em;
     display: flex;
     align-items: center;
     width: 30px;
@@ -261,6 +261,7 @@
         
     }
     .project-card{
-        margin-left: 15%;
+        margin-left: 20%;
+        
     }
 }
