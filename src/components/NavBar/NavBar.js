@@ -24,7 +24,7 @@ const NavBar = () => {
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-90} duration={900} className="componentsList">Home</Link>
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-90} duration={900} className="componentsList">About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-70} duration={900} className="componentsList">Skills</Link>
-                <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-90} duration={900} className="componentsList">Experience</Link>
+                <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-40} duration={900} className="componentsList">Experience</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={900} className="componentsList">Projects</Link>
             </div>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={900} >
@@ -40,7 +40,7 @@ const NavBar = () => {
                 <Link to="intro" onClick={closeMenu} offset={-60} >Home</Link>
                 <Link to="about" onClick={closeMenu} offset={-60}>About</Link>
                 <Link to="skills" onClick={closeMenu} offset={-60}>Skills</Link>
-                <Link to="experience" onClick={closeMenu} offset={-60}>Experience</Link>
+                <Link to="experience" onClick={closeMenu} offset={-40}>Experience</Link>
                 <Link to="projects" onClick={closeMenu} offset={-90}>Projects</Link>
                 <Link to="contact" onClick={closeMenu} offset={-60}>Contact</Link>
             </div>
