@@ -8,7 +8,7 @@ const Project = () => {
     const [isVisible, setIsVisible] = useState(true);
 
     const handleButtonClick = (buttonType) => {
-        if (buttonType === 'ReactJs'|| buttonType === 'All') {
+        if (buttonType === 'All'|| buttonType === 'ReactJs') {
             setIsVisible(true);
         } else {
             setIsVisible(false);
@@ -55,6 +55,9 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
+            )}
+            {!isVisible && (
+                <div className='new_project' style={{textAlign:'center', marginTop:'5em',fontWeight:'bold'}}>New Projects Coming Soon.. 🧑‍💻</div>
             )}
         </div>
     );
