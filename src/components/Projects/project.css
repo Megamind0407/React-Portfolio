@@ -40,7 +40,10 @@
     background-color: var(--accent);
     transform: scale(0.95);
 }
-
+.project-container{
+    display: flex;
+    flex-direction: row;
+}
 .project-card {
     margin: 2rem;
     width: 20rem;
@@ -260,8 +263,9 @@
         padding-bottom: 5rem;
         
     }
-    .project-card{
-        margin-left: 20%;
-        
+    .project-container{
+        display: flex;
+        flex-direction: column;
     }
+
 }

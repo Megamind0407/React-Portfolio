@@ -3,7 +3,7 @@ import "./NavBar.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
 import { IoMenu } from "react-icons/io5";
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import contactImg from "../../assets/contactImage.png"
 
 const NavBar = () => {
@@ -16,6 +16,14 @@ const NavBar = () => {
     const closeMenu = () => {
         setShowMenu(false);
     };
+
+    useEffect(() => {
+        if (showMenu) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }, [showMenu]);
 
     return (
         <nav className='navbar'>
