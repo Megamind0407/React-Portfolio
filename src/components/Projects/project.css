@@ -77,7 +77,12 @@
     padding: 3px;
     margin-left: 0.4rem;
 }
-
+.desc{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
 .btns {
     display: flex;
     margin-left: 0.5rem;
@@ -129,7 +134,7 @@
 
 .buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
 }
 
