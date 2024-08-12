@@ -37,7 +37,7 @@ const Experience = () => {
                             <span className='title-role'>Python-Django WebDev Intern</span>
                             <span className='date'>Oct 2023-Jan 2024</span>
                         </div>
-                        <div className='desc'>
+                        <div className='desc1'>
                             <span>During my Python Django Web development internship, I learned a wide range of skills and gained valuable experience in building web applications.
                                 Some key learnings like Django Framework, Restful Api's, Authentication, Database Management
                             </span>
@@ -66,7 +66,7 @@ const Experience = () => {
                             <span className='title-role2'>Technical Content Writer</span>
                             <span className='role'>Remote(Freelance)</span>
                         </div>
-                        <div className='desc'>
+                        <div className='desc1'>
                             <span>
                                 My area of expertise as a freelance technical content writer for GeeksforGeeks is producing tutorials and articles about PostgreSQL, MySQL, and other database-related subjects.
                                 I have 1000+ views and 500+ Likes on my articles .

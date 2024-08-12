@@ -31,7 +31,8 @@
     height: 50px;
     width: 1000px;
     padding-left: 3px;
-    padding-right: 3px; 
+    padding-right: 3px;
+    border-radius: 0.5em; 
     z-index: 0;
 }
 
@@ -126,9 +127,11 @@
     }
     .skills{
         margin-bottom: 1.5rem;
+        overflow-x: hidden;
     }
     .card{
-        width: 600px;
+        width: 450px;
+        border-radius: 0.5em;
     }
 
 }
