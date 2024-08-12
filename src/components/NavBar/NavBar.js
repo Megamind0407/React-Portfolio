@@ -33,9 +33,9 @@ const NavBar = () => {
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-90} duration={900} className="componentsList">About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-70} duration={900} className="componentsList">Skills</Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-40} duration={900} className="componentsList">Experience</Link>
-                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={900} className="componentsList">Projects</Link>
+                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={900} className="componentsList">Projects</Link>
             </div>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={900} >
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={900} >
             <button className="nav-button">
                 <img src={contactImg} alt="" className='contact-img'></img><span>Contact Me</span>
             </button>

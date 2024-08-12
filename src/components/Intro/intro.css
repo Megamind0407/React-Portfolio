@@ -2,12 +2,14 @@
 #intro{
     display: flex;
     margin: auto;
+    margin-bottom: 2.7rem;
 }
 
 .bg{
     position: absolute;
     right: 0;
     object-fit:cover;
+    top: 10%;
     max-width: 600px;
 }
 
@@ -92,7 +94,7 @@
         margin: auto;
     }
     .introContent{
-        height: 60vh;
+        height: 70vh;
         width: 100vw;
         align-items: center;
         justify-content: center;
