@@ -6,7 +6,9 @@ import Experience from "./components/Experience/experience"
 import Projects from "./components/Projects/project"
 import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
+import "./App.css"
 function App() {
+  
   return (
     <div className="App">
       <NavBar />
@@ -17,7 +19,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
-    </div>
+      </div>
   );
 }
 
