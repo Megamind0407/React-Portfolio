@@ -110,3 +110,9 @@
         font-size: 4.5vw;
     }
 }
+
+@media screen and (max-width : 426px ){
+    .bg{
+        display: none;
+    }
+}

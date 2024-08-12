@@ -46,11 +46,11 @@ const NavBar = () => {
             {showMenu && (
                 <div className={showMenu ? 'links show-links' : 'links'}>
                 <Link to="intro" onClick={closeMenu} offset={-60} >Home</Link>
-                <Link to="about" onClick={closeMenu} offset={-60}>About</Link>
-                <Link to="skills" onClick={closeMenu} offset={-60}>Skills</Link>
+                <Link to="about" onClick={closeMenu} offset={-30}>About</Link>
+                <Link to="skills" onClick={closeMenu} offset={-40}>Skills</Link>
                 <Link to="experience" onClick={closeMenu} offset={-40}>Experience</Link>
-                <Link to="projects" onClick={closeMenu} offset={-90}>Projects</Link>
-                <Link to="contact" onClick={closeMenu} offset={-60}>Contact</Link>
+                <Link to="projects" onClick={closeMenu} offset={-50}>Projects</Link>
+                <Link to="contact" onClick={closeMenu} offset={-40}>Contact</Link>
             </div>
             )}
         </nav>

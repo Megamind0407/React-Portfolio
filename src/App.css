@@ -1,5 +1,6 @@
 .App {
     animation: fadeIn 1s ease-out;
+    overflow-x: hidden;
 }
 
 @keyframes fadeIn {
