@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    background: rgb(30, 30, 30);
+    position: fixed;
     top: 0;
     z-index: 3;
-    background: rgb(30, 30, 30);
 }
 
 .menu-grid{
