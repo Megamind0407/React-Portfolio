@@ -93,6 +93,72 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
+                {/* <div className='project-card'>
+                    <div className='content'>
+                        <img src={Project2} alt="Sky Ease" />
+                    </div>
+                    <div className='project-title'>SkyEase</div>
+                    <div className='desc'>
+                        <p>Established an Airline Flight Booking Website using ReactJs with efficient user experience</p>
+                    </div>
+                    <div className='btns'>
+                        <div className='bt1'><span className='text'>HTML</span></div>
+                        <div className='bt3'><span className='text'>CSS</span></div>
+                        <div className='bt4'><span className='text'>ReactJs</span></div>
+                        <div className='bt4'><span className='text'>NodeJs</span></div>
+                    </div>
+                    <div className='buttons'>
+                        <a href='https://sky-ease.vercel.app/' target='_blank' rel="noreferrer">
+                            <button className='demo'>
+                                <div className='live'>
+                                    <ExternalLink />
+                                </div>
+                                <div className='btn-text'>Live</div>
+                            </button>
+                        </a>
+                        <a href='https://github.com/Megamind0407/SkyEase' target='_blank' rel="noreferrer">
+                            <button className='code'>
+                                <div className='icon'>
+                                    <Code />
+                                </div>
+                                <div className='txt'>Code</div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div className='project-card'>
+                    <div className='content'>
+                        <img src={Project2} alt="Sky Ease" />
+                    </div>
+                    <div className='project-title'>SkyEase</div>
+                    <div className='desc'>
+                        <p>Established an Airline Flight Booking Website using ReactJs with efficient user experience</p>
+                    </div>
+                    <div className='btns'>
+                        <div className='bt1'><span className='text'>HTML</span></div>
+                        <div className='bt3'><span className='text'>CSS</span></div>
+                        <div className='bt4'><span className='text'>ReactJs</span></div>
+                        <div className='bt4'><span className='text'>NodeJs</span></div>
+                    </div>
+                    <div className='buttons'>
+                        <a href='https://sky-ease.vercel.app/' target='_blank' rel="noreferrer">
+                            <button className='demo'>
+                                <div className='live'>
+                                    <ExternalLink />
+                                </div>
+                                <div className='btn-text'>Live</div>
+                            </button>
+                        </a>
+                        <a href='https://github.com/Megamind0407/SkyEase' target='_blank' rel="noreferrer">
+                            <button className='code'>
+                                <div className='icon'>
+                                    <Code />
+                                </div>
+                                <div className='txt'>Code</div>
+                            </button>
+                        </a>
+                    </div>
+                </div> */}
                 </div>
             )}
             

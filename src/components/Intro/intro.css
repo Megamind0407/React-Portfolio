@@ -10,11 +10,11 @@
     right: 0;
     object-fit:cover;
     top: 10%;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 .introContent{
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
     padding: 1rem;
     font-size: 3rem;
