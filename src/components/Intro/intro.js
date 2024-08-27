@@ -27,7 +27,7 @@ const Intro = () => {
                     repeat={Infinity}
             /></span></span>
                 <p className="introPara">I am a skilled developer with experience </p>
-                <a href='https://drive.google.com/file/d/16ibt2pWQN0MnwZsOROAoIOnAfSb69aDc/view?usp=sharing' target='_blank' alt='' rel="noreferrer"><button className="btn"><WorkIcon className='resume-logo'></WorkIcon><span>Download CV</span></button></a>
+                <a href='https://drive.google.com/file/d/1ZK0B4UOU3llgs-rQP3WeBc-LRaqhaQlN/view?usp=drive_link' target='_blank' alt='' rel="noreferrer"><button className="btn"><WorkIcon className='resume-logo'></WorkIcon><span>Download CV</span></button></a>
             </div>
             <img src={bg} alt="" className="bg"></img>
         </section>
