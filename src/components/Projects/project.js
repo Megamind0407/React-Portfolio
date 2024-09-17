@@ -195,7 +195,6 @@ const Project = () => {
                 </div>
                 </div>
                 )}
-
                 {(isVisible === 'MERN') && (
                 <div className='project-container'>
                 <div className='project-card'>
@@ -233,7 +232,7 @@ const Project = () => {
                 </div>
                 </div>
             )}
-            {isVisible && (
+            {isVisible === 'NextJs' && (
                 <div className='new_project' style={{textAlign:'center', marginTop:'5em',fontWeight:'bold'}}>New Projects Coming Soon.. 🧑‍💻</div>
             )}
         </div>
