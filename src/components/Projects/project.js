@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './project.css';
 import Project1 from "../../assets/fitlifehub.jpeg";
-import Project2 from "../../assets/SkyEase Poster.png"
+import Project2 from "../../assets/SkyEase_poster.png"
 import Project3 from '../../assets/expTrack_poster.png'
 import { ExternalLink } from 'lucide-react';
 import { Code } from 'lucide-react';
