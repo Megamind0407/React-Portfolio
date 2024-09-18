@@ -117,4 +117,7 @@
     .bg{
         display: none;
     }
+    .introPara{
+        font-size: small;
+    }
 }
