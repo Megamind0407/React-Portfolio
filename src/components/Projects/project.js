@@ -3,6 +3,7 @@ import './project.css';
 import Project1 from "../../assets/fitlifehub.jpeg";
 import Project2 from "../../assets/SkyEase_poster.png"
 import Project3 from '../../assets/expTrack_poster.png'
+import Project4 from '../../assets/chat-app 1.png'
 import { ExternalLink } from 'lucide-react';
 import { Code } from 'lucide-react';
 
@@ -123,6 +124,39 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
+                <div className='project-card'>
+                    <div className='poster'>
+                        <img src={Project4} alt="ChatApp" />
+                    </div>
+                    <div className='project-title'>Real-time Chat App</div>
+                    <div className='desc'>
+                        <p>A real-time chat application using MERN stack with a responsive UI</p>
+                    </div>
+                    <div className='btns'>
+                        <div className='bt4'><span className='text'>ReactJs</span></div>
+                        <div className='bt4'><span className='text'>NodeJs</span></div>
+                        <div className='bt4'><span className='text'>MongoDB</span></div>
+                        <div className='bt4'><span className='text'>Express</span></div>
+                    </div>
+                    <div className='buttons'>
+                        <a href='https://chat-app-sigma-blond.vercel.app/login' target='_blank' rel="noreferrer">
+                            <button className='demo'>
+                                <div className='live'>
+                                    <ExternalLink />
+                                </div>
+                                <div className='btn-text'>Live</div>
+                            </button>
+                        </a>
+                        <a href='https://github.com/Megamind0407/Chat-app' target='_blank' rel="noreferrer">
+                            <button className='code'>
+                                <div className='icon'>
+                                    <Code />
+                                </div>
+                                <div className='txt'>Code</div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
                 </div>
             )}
             {(isVisible === 'ReactJs') && (
@@ -221,6 +255,39 @@ const Project = () => {
                             </button>
                         </a>
                         <a href='https://github.com/Megamind0407/expense-tracker' target='_blank' rel="noreferrer">
+                            <button className='code'>
+                                <div className='icon'>
+                                    <Code />
+                                </div>
+                                <div className='txt'>Code</div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div className='project-card'>
+                    <div className='poster'>
+                        <img src={Project4} alt="ChatApp" />
+                    </div>
+                    <div className='project-title'>Real-time Chat App</div>
+                    <div className='desc'>
+                        <p>A real-time chat application using MERN stack with a responsive UI</p>
+                    </div>
+                    <div className='btns'>
+                        <div className='bt4'><span className='text'>ReactJs</span></div>
+                        <div className='bt4'><span className='text'>NodeJs</span></div>
+                        <div className='bt4'><span className='text'>MongoDB</span></div>
+                        <div className='bt4'><span className='text'>Express</span></div>
+                    </div>
+                    <div className='buttons'>
+                        <a href='https://chat-app-sigma-blond.vercel.app/login' target='_blank' rel="noreferrer">
+                            <button className='demo'>
+                                <div className='live'>
+                                    <ExternalLink />
+                                </div>
+                                <div className='btn-text'>Live</div>
+                            </button>
+                        </a>
+                        <a href='https://github.com/Megamind0407/Chat-app' target='_blank' rel="noreferrer">
                             <button className='code'>
                                 <div className='icon'>
                                     <Code />
