@@ -4,6 +4,7 @@ import Project1 from "../../assets/fitlifehub.jpeg";
 import Project2 from "../../assets/SkyEase_poster.png"
 import Project3 from '../../assets/expTrack_poster.png'
 import Project4 from '../../assets/chat-app 1.png'
+import Project5 from '../../assets/meetx.png'
 import { ExternalLink } from 'lucide-react';
 import { Code } from 'lucide-react';
 
@@ -157,6 +158,39 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
+                <div className='project-card'>
+                    <div className='content'>
+                        <img src={Project5} alt="MeetX" />
+                    </div>
+                    <div className='project-title'>MeetX</div>
+                    <div className='desc'>
+                        <p>A Remote Interview Platform in NextJs. </p>
+                    </div>
+                    <div className='btns'>
+                        <div className='bt1'><span className='text'>NextJs</span></div>
+                        <div className='bt2'><span className='text'>TypeScript</span></div>
+                        <div className='bt3'><span className='text'>Clerk</span></div>
+                        <div className='bt4'><span className='text'>Convex</span></div>
+                    </div>
+                    <div className='buttons'>
+                        <a href='https://meet-x-nine.vercel.app/' target='_blank' rel="noreferrer">
+                            <button className='demo'>
+                                <div className='live'>
+                                    <ExternalLink />
+                                </div>
+                                <div className='btn-text'>Live</div>
+                            </button>
+                        </a>
+                        <a href='https://github.com/Megamind0407/meetx.git' target='_blank' rel="noreferrer">
+                            <button className='code'>
+                                <div className='icon'>
+                                    <Code />
+                                </div>
+                                <div className='txt'>Code</div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
                 </div>
             )}
             {(isVisible === 'ReactJs') && (
@@ -300,7 +334,39 @@ const Project = () => {
                 </div>
             )}
             {isVisible === 'NextJs' && (
-                <div className='new_project' style={{textAlign:'center', marginTop:'5em',fontWeight:'bold'}}>New Projects Coming Soon.. 🧑‍💻</div>
+                <div className='project-card'>
+                <div className='content'>
+                    <img src={Project5} alt="MeetX" />
+                </div>
+                <div className='project-title'>MeetX</div>
+                <div className='desc'>
+                    <p>A Remote Interview Platform in NextJs. </p>
+                </div>
+                <div className='btns'>
+                    <div className='bt1'><span className='text'>NextJs</span></div>
+                    <div className='bt2'><span className='text'>TypeScript</span></div>
+                    <div className='bt3'><span className='text'>Clerk</span></div>
+                    <div className='bt4'><span className='text'>Convex</span></div>
+                </div>
+                <div className='buttons'>
+                    <a href='https://meet-x-nine.vercel.app/' target='_blank' rel="noreferrer">
+                        <button className='demo'>
+                            <div className='live'>
+                                <ExternalLink />
+                            </div>
+                            <div className='btn-text'>Live</div>
+                        </button>
+                    </a>
+                    <a href='https://github.com/Megamind0407/meetx.git' target='_blank' rel="noreferrer">
+                        <button className='code'>
+                            <div className='icon'>
+                                <Code />
+                            </div>
+                            <div className='txt'>Code</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
             )}
         </div>
     );

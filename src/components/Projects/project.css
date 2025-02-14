@@ -42,7 +42,8 @@
 }
 .project-container{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 .project-card {
     margin: 1rem;
